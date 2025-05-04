@@ -1,0 +1,5 @@
+/target
+/chroma
+.env
+/docs
+config.ini

@@ -1,0 +1,7 @@
+-- 问答表定义
+CREATE TABLE IF NOT EXISTS qa_pairs (
+    id SERIAL PRIMARY KEY,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
